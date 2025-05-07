@@ -19,7 +19,7 @@ OPENWEATHERMAP_API_KEY = os.getenv('OPENWEATHERMAP_API_KEY')
 
 CITY_NAME = "Saint Petersburg"
 COUNTRY_CODE = "RU"
-UPDATE_INTERVAL_SECONDS = 10 * 60  # 10 minutes
+UPDATE_INTERVAL_SECONDS = 5 * 60  # 10 minutes
 
 # Validate environment variables
 if not all([TELEGRAM_API_ID, TELEGRAM_API_HASH, OPENWEATHERMAP_API_KEY]):
